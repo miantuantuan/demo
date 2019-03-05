@@ -21,7 +21,6 @@
     "lib-flexible": "^0.3.2",
     "module": "^1.2.5",
     "npm": "^6.8.0",
-    "npm-lx-test": "^1.0.0",
     "nprogress": "^0.2.0",
     "px2rem-loader": "^0.1.9",
     "vue": "^2.5.2",
