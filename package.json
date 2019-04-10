@@ -24,7 +24,8 @@
     "nprogress": "^0.2.0",
     "px2rem-loader": "^0.1.9",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "x-video-player": "^1.0.7"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

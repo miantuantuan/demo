@@ -25,7 +25,7 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   console.log(to)
   // 设置主题
-  store.dispatch('icbc/theme/set', 'math')
+  store.dispatch('icbc/theme/set', 'en')
   // 进度条
   NProgress.start()
   // 验证当前路由所有的匹配中是否需要有登录验证的

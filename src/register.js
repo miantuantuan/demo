@@ -17,6 +17,11 @@ export default {
         title: '数学',
         name: 'math',
         preview: 'image/theme/d2/preview@2x.png'
+      },
+      {
+        title: '英语',
+        name: 'en',
+        preview: 'image/theme/d2/preview@2x.png'
       }
     ]
   }

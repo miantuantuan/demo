@@ -27,15 +27,9 @@ export default {
   computed: {
   },
   methods: {
-    startStudy: () => {
-        this.$router.replace({name: ''})
-    }
+
   },
   mounted () {
-    let vm = this
-    setTimeout(function () {
-      vm.buttonShow = true
-    }, 30000)
   }
 }
 </script>

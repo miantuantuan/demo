@@ -1,7 +1,9 @@
 // 主题名称
-$theme-name: 'math';
+$theme-name: 'en';
+
 // 主题背景颜色
-$theme-bg-color: #ebf1f6;
+$theme-bg-color: rgba(149,132,255,1);
+
 // 主题背景图片遮罩
 $theme-bg-mask: rgba(#000, 0);
 
@@ -20,7 +22,7 @@ $theme-options-border: 2px solid rgba(194,198,200,1);
 // 选项hover边框颜色值
 $theme-options-border-hover: 2px solid rgba(133,142,145,1);
 // 选项选中边框颜色值
-$theme-options-border-focus: 2px solid rgba(0,184,208,1);
+$theme-options-border-focus: 2px solid rgba(149,132,255,1);
 // 选项正确边框颜色值
 $theme-options-border-right: 2px solid rgba(20,222,131,1);
 // 选项错误边框颜色值
