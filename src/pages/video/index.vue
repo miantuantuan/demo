@@ -1,11 +1,13 @@
 <template>
-  <video-player  class="video-player-box"
-                 ref="videoPlayer"
-                 :options="playerOptions"
-                 :playsinline="true"
-                 customEventName="customstatechangedeventname"
-  >
-  </video-player>
+  <div class="v3-video">
+    <video-player class="video-player-box"
+                   ref="videoPlayer"
+                   :options="playerOptions"
+                   :playsinline="true"
+                   customEventName="customstatechangedeventname"
+    >
+    </video-player>
+  </div>
 </template>
 
 <script>
@@ -23,6 +25,9 @@
             type: "video/mp4",
             src: "https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
           }],
+          controlBar: {
+            fullscreenToggle: true
+          },
           poster: "",
         }
       }
@@ -34,30 +39,4 @@
 </script>
 
 <style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-
-  h1, h2 {
-    font-weight: normal;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    color: #42b983;
-  }
 </style>

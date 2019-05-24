@@ -12,7 +12,6 @@ import 'video.js/dist/video-js.css'
 // require videojs style
 import './assets/style/theme/default/index.css'
 import animated from './assets/style/animate/vue-transition.scss' // npm install animate.css --save安装，在引入
-
 Vue.use(animated)
 Vue.use(ElementUI)
 Vue.use(XVideoPlayer)

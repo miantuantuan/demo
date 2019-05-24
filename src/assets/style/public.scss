@@ -5,6 +5,8 @@ $prefix: v3;
 html,body,.container{
   width: 100%;
   height:100%;
+  margin: 0;
+  padding: 0;
   // overflow: hidden;
 }
 // 禁止用户选中 鼠标变为手形

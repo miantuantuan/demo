@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: #{$theme-font-family};
   .v3-container {
-    background: url('../../assets/style/theme/#{$theme-name}/imgs/welcome.png');
+    background: url('./assets/style/theme/#{$theme-name}/imgs/welcome.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@
       height:217px;
       position: absolute;
       bottom: 50px;
-      background: url('../../assets/style/theme/#{$theme-name}/imgs/start_bg.png');
+      background: url('./assets/style/theme/#{$theme-name}/imgs/start_bg.png');
       .v3-course-title{
         width: 28ch;
         white-space: nowrap;

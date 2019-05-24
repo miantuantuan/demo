@@ -3,6 +3,11 @@ export default {
   state: {
     lang: 'cn'
   },
+  mutations: {
+    changeLang: (state, params) => {
+      state.lang = lang
+    }
+  },
   actions: {
     /**
      * @description 设置用户语言环境

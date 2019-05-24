@@ -27,19 +27,22 @@ export default {
   computed: {
   },
   methods: {
-    startStudy: () => {
-        this.$router.replace({name: ''})
+    startStudy () {
+      this.$router.replace({name: 'study-video'})
     }
   },
   mounted () {
     let vm = this
     setTimeout(function () {
       vm.buttonShow = true
-    }, 30000)
+    }, 3000)
+    var re = /</g;
+    var str = "John<Smi<<<<<th";
+    var newstr = str.replace(/</g, "< ");
+    console.log(newstr);
   }
 }
 </script>
 <style lang="scss">
-  // 注册主题
-  @import '@/assets/style/theme/register.scss';
+
 </style>
