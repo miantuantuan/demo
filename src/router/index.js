@@ -13,7 +13,7 @@ import routes from './routes'
 Vue.use(VueRouter)
 
 console.log(routes)
-// 导出路由 在 main.js 里使用
+// 导出路由 在 main.yplayer 里使用
 const router = new VueRouter({
   routes
 })
@@ -23,7 +23,6 @@ const router = new VueRouter({
  * 权限验证
  */
 router.beforeEach((to, from, next) => {
-  console.log(to)
   // 设置主题
   store.dispatch('icbc/theme/set', 'en')
   // 进度条

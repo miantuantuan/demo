@@ -4,10 +4,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>松鼠AI智适应教育</title>
+
   </head>
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script type="text/x-mathjax-config">
+       MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$', '$'], ['\\(', '\\)'], ['$\\[', '\\]$'], ['$\\(', '\\)$']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        },
+        "HTML-CSS": {
+            availableFonts: ["STIX","TeX"],
+            showMathMenu: false
+        },
+        showMathMenu: false,
+        showProcessingMessages: false,
+        messageStyle: 'none'
+      })
+    </script>
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/javascript"  src="./static/lib/hls/hls.min.js"></script>
+    <script type="text/javascript"  src="./static/lib/yplayer/YPlayer.min.js"></script>
   </body>
 </html>

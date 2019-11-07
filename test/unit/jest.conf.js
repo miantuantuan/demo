@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   rootDir: path.resolve(__dirname, '../../'),
   moduleFileExtensions: [
-    'js',
+    'yplayer',
     'json',
     'vue'
   ],
@@ -22,9 +22,9 @@ module.exports = {
   mapCoverage: true,
   coverageDirectory: '<rootDir>/test/unit/coverage',
   collectCoverageFrom: [
-    'src/**/*.{js,vue}',
-    '!src/main.js',
-    '!src/router/index.js',
+    'src/**/*.{yplayer,vue}',
+    '!src/main.yplayer',
+    '!src/router/index.yplayer',
     '!**/node_modules/**'
   ]
 }

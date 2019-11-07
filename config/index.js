@@ -13,7 +13,7 @@ module.exports = {
     proxyTable: {},
 
     // Various Dev Server settings
-    host: 'localhost', // can be overwritten by process.env.HOST
+    host: 'me.classba.cn', // can be overwritten by process.env.HOST
     port: 3000, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: true,
     errorOverlay: true,
@@ -65,7 +65,7 @@ module.exports = {
     // Before setting to `true`, make sure to:
     // npm install --save-dev compression-webpack-plugin
     productionGzip: false,
-    productionGzipExtensions: ['js', 'css'],
+    productionGzipExtensions: ['yplayer', 'css'],
 
     // Run the build command with an extra argument to
     // View the bundle analyzer report after build finishes:

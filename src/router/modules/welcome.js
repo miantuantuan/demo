@@ -1,7 +1,7 @@
 const meta = { auth: false }
 
 export default {
-  path: '/',
+  path: '/welcome',
   name: 'demo-welcome',
   component: () => import('@/pages/welcome'),
   meta: {
